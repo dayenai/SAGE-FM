@@ -17,7 +17,10 @@ Evaluation and Benchmarking
 The code used for evaluation tasks is provided in the Evaluation and Benchmarking/ subfolder, including:
 •	SAGE-FM_Pretraining Evaluation and Get Embeddings_HEST1k.py (evaluate masked gene prediction and export embeddings)
 •	SAGE-FM_Missing Gene Imputation.py (systematic missingness imputation)
-•	SAGE-FM_In silico Perturbation.py (in silico perturbation experiments)
+•	SAGE-FM_In silico Perturbation.py (in silico perturbation ligand receptor experiments)
+•	SAGE-FM_perturbation_downstream.py (in silico perturbation ligand downstream genes experiments)
+•	SAGE-FM_perturbation_downstream.py (in silico perturbation ligand downstream genes experiments)
+• SAGE-FM_perturbation_baseline.py (in silico perturbation ligand downstream gene genes baseline)
 
 Run Inference on New Data
 For users who would like to infer SAGE-FM embeddings for a new Visium spatial transcriptomics dataset, please use the Post-training Inference/ folder.
@@ -49,4 +52,5 @@ If your dataset name is not GBM, you can either (a) rename your dataset key to G
 
 Example Data
 To help users understand the expected input and output formats, we include one sample from the OSCC downstream task in the paper in the Example Data/ subfolder.
+
 
